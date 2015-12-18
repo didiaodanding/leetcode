@@ -1,0 +1,5 @@
+#!/bin/bash
+aa=`cat file.txt`
+number=${#aa[*]}
+echo $number
+echo ${aa[(($number-1))]}
